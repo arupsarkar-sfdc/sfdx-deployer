@@ -3,7 +3,7 @@ sfdx shane:org:create -f config/project-scratch-def.json -d 7 -s -n --userprefix
 # Push the metadata into the new scratch org.
 sfdx force:source:push
 # Import data in the scratch orgs
-sfdx force:data:tree:import -p data/Account-Contact.json
+sfdx force:data:tree:import -p data/Account-Contact-plan.json
 # Set the default password.
 sfdx shane:user:password:set -g User -l User -p sfdx1234
 # Open the demo org.
