@@ -1,0 +1,23 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Store# 123",
+            "Contacts": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef1"
+                        },
+                        "FirstName": "John",
+                        "LastName": "Smith"
+                    }
+                ]
+            }
+        }
+    ]
+}
