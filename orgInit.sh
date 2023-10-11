@@ -1,5 +1,5 @@
 # Create the scratch org (uncomment for the SFDX Deployer)
-sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s -n --userprefix admin --userdomain sfdc.ninjas
+sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s -n --userprefix admin --userdomain sfdc.workshop
 
 # Push the metadata into the new scratch org.
 sfdx force:source:push
