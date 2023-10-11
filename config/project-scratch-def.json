@@ -1,15 +1,13 @@
 {
-  "orgName": "arup.sarkar company",
+  "orgName": "scratch-org-demo",
   "edition": "Developer",
-  "features": [],
+  "features": ["enableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
-    "securitySettings": {
-      "passwordPolicies": {
-        "enableSetPasswordInApi": true
-      }
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
